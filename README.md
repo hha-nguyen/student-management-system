@@ -1,45 +1,30 @@
-# Tələbə İdarəetmə Sistemi
+# Student Management System
 
-Bu web applikasiya spring-boot və react-da yazılıb, siz bu saytdan istifadə edərək qeydiyyatdan keçə, sayta login ola, tələbələri yarada, tələbələrin şəkillərini və məumatlarını yarada və dəyişə bilərsiniz
+This web application is developed using Spring Boot and React, allowing you to register, log in to the system, create students, and manage their information, including images and details.
 
 ![studentmng.png](imgs/studentmng.png)
 
+## Features
 
-## Xüsusiyyətləri
-* İstifadəçinin autentifikasiyası və avtorizasiyası
-* Tələbələrin məlumatları üçün CRUD əməliyyatları
-* Amazon S3 bucket-ə şəkil əlavə etmək
-* Dataları redis keşdə saxlamaq
+- User authentication and authorization
+- CRUD operations for student information
+- Adding images to Amazon S3 bucket
+- Storing data in Redis cache
 
-## İstifadə olunan Texnologiyalar
-* Spring Boot
-* React
-* Spring Security
-* Spring Data JPA
-* Mapstruct
-* Docker
-* MongoDb
-* Redis
-* AWS S3
+## Used Technologies
 
-## Başlamaq üçün:
-* `docker compose up`
-* `mvn spring-boot:run`
-* `npm run dev`
+- Spring Boot
+- React
+- Spring Security
+- Spring Data JPA
+- Mapstruct
+- Docker
+- MongoDB
+- Redis
+- AWS S3
 
-# Ekran görüntüləri
+## Getting Started:
 
-## Giriş Səhifəsi
-![login.png](imgs/login.png)
-
-## Qeydiyyat Səhifəsi
-![register.png](imgs/register.png)
-
-## İdarə paneli
-![dashboard.png](imgs/dashbooard.png)
-
-## Tələbə siyahısı
-![students.png](imgs/students.png)
-
-# Tələbəni redaktə et və şəkil əlavə etmək
-![edit.png](imgs/edit.png)
+- `docker compose up`
+- `mvn spring-boot:run`
+- `npm run dev`
