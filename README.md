@@ -11,6 +11,21 @@ This web application is developed using Spring Boot and React, allowing you to r
 - Adding images to Amazon S3 bucket
 - Storing data in Redis cache
 
+## Shortcuts
+
+### Docker | JWT
+
+![Docker.png](imgs/Docker.png)
+
+### AWS S3
+
+![aws3.png](imgs/aws3.png)
+
+### Redis
+
+![Redis.png](imgs/Redis.png)
+![Redis1.png](imgs/Redis1.png)
+
 ## Used Technologies
 
 - Spring Boot
